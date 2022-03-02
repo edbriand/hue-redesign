@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './Philips_Hue_Logo_Custom_XSmall.png';
+import Switch from './Switch';
 
 function Navbar() {
   return (
@@ -9,14 +10,7 @@ function Navbar() {
         alt="Logo - Philips Hue" srcset={logo}/>
       </li>
       <li>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Toggle
-        </a>
+        <Switch></Switch>
       </li> 
     </ul>
   );
